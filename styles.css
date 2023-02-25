@@ -1,0 +1,141 @@
+body{
+  background-color: #FFFFE8;
+  box-sizing: border-box;
+  outline : none ;
+  text-transform : capitalize ;
+  transition : all .2s linear ;
+  padding: 0 ;
+  margin : 0 ;
+  font-family: 'Tilt Neon', cursive;
+
+}
+
+.container{
+  display: flex;
+  position : sticky;
+}
+
+.image img{
+
+  padding-right: 15px ;
+  display: block;
+  width: 45px;
+
+}
+
+.Text{
+  padding-top: 20px ;
+  font-family: 'Tilt Neon', cursive;
+  float : right;
+}
+
+.headerc  {
+    display : flex ;
+    align-items: center;
+    padding : 20px 80px ;
+    justify-content: space-between;
+    background : #635985 ;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+
+
+}
+h1{
+  border : solid ;
+}
+.navbar ul{
+
+  list-style-type: none ;
+  display : flex ;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.navbar ul li{
+  list-style-type: none ;
+  padding : 0px 20px ;
+
+}
+
+.navbar ul li a{
+    color: black;
+    font-family: 'Tilt Neon', cursive;
+    text-decoration: none;
+    transition : 0.3s ease ;
+}
+
+.navbar ul li a:hover{
+   color : #FCFFE7;
+}
+
+#Homepage{
+
+    padding : 22em ;
+    background-image: url("images/lib.jpg") ;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size : cover;
+    font-family: 'Merriweather', sans serif;
+    color :  #03001C;
+    text-align : center ;
+
+}
+.third{
+  padding : 10px 8% ;
+  margin-top: 70px ;
+  margin-bottom : 70px ;
+  display : flex ;
+  align-items: center ;
+  justify-content: space-between;
+}
+.third .f-box{
+  width : 180px ;
+  text-align : center ;
+  padding : 25px 25px ;
+  border : 1px solid ;
+  border-color : #BFDB38;
+  padding-bottom : 20px ;
+  box-shadow : 20px 20px 34px rgba(3,1,1,0.06) ;
+  border-radius : 4px ;
+  margin-top : 40px ;
+
+}
+.f-box:hover {
+  box-shadow : 30px 30px 24px rgba(63,56,14,6) ;
+}
+
+.third .f-box img {
+
+  height : 130px;
+  width : 100px ;
+}
+.third .f-box h6{
+
+  border-radius: 4px ;
+  color : #635985 ;
+  background-color : #FFD4D4 ;
+}
+.fourth h2{
+  text align : center ;
+  padding-left: 40% ;
+}
+.foot {
+  background-color: black ;
+}
+.foot p{
+  padding : 8px 4% ;
+  color : white ;
+}
+.foot .imsec img{
+  padding-left: 4% ;
+  height : 35px ;
+  padding-right: 5px ;
+  margin-bottom: 30px ;
+  display: block;
+  width: 45px;
+  color :white ;
+}
+.foot .imsec{
+  display : flex ;
+
+}
